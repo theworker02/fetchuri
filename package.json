@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/fetchuri",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fetch digests and uri fingerprints for local integrity checks.",
+  "bin": {
+    "fetchuri": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/fetchuri.git"
+  },
+  "homepage": "https://theworker02.github.io/fetchuri/",
+  "keywords": [
+    "fetch",
+    "uri",
+    "hash",
+    "cli",
+    "toolkit"
+  ]
+}
